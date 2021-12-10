@@ -1,6 +1,6 @@
 ﻿namespace Assignment01
 {
-    partial class Form1
+    partial class Assignment01Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btResume = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btResume
+            // 
+            this.btResume.Location = new System.Drawing.Point(293, 166);
+            this.btResume.Name = "btResume";
+            this.btResume.Size = new System.Drawing.Size(255, 46);
+            this.btResume.TabIndex = 0;
+            this.btResume.Text = "Вывести резюме";
+            this.btResume.UseVisualStyleBackColor = true;
+            this.btResume.Click += new System.EventHandler(this.btResume_Click);
+            // 
+            // Assignment01Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.btResume);
+            this.Name = "Assignment01Form";
+            this.Text = "Assignment01";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Button btResume;
     }
 }
