@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btResume);
             this.Name = "Assignment01Form";
-            this.Text = "Assignment01";
+            this.Text = "Задание 1";
             this.ResumeLayout(false);
 
         }
