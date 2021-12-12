@@ -210,7 +210,6 @@ namespace Assignment07
                 else
                     lbResult.Text += "секунд";
             }
-
         }
     }
 }
