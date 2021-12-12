@@ -83,7 +83,6 @@
             // 
             // cbMonth
             // 
-            this.cbMonth.Enabled = false;
             this.cbMonth.FormattingEnabled = true;
             this.cbMonth.Location = new System.Drawing.Point(173, 87);
             this.cbMonth.Name = "cbMonth";
@@ -93,7 +92,6 @@
             // 
             // cbDay
             // 
-            this.cbDay.Enabled = false;
             this.cbDay.FormattingEnabled = true;
             this.cbDay.Location = new System.Drawing.Point(173, 137);
             this.cbDay.Name = "cbDay";

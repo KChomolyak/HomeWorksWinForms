@@ -9,26 +9,12 @@ namespace Assignment06
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-            cbYear.SelectedIndexChanged -= cbYear_SelectedIndexChanged; 
             DateTime dt = DateTime.Now;
             for(int i = 1; i < dt.Year + 100; i++) 
             {
                 cbYear.Items.Add(i.ToString());
             }
-            cbYear.SelectedItem = dt.Year.ToString();
-            cbYear.SelectedIndexChanged += cbYear_SelectedIndexChanged;
-        }
 
-        private void cbYear_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            cbMonth.SelectedIndexChanged -= cbMonth_SelectedIndexChanged;
-            lbResult.Text = "";
-            cbDay.SelectedIndexChanged -= cbDay_SelectedIndexChanged;
-            cbDay.Items.Clear();
-            cbDay.Text = "";
-            cbDay.Enabled = false;
-            cbDay.SelectedIndexChanged += cbDay_SelectedIndexChanged;
-            DateTime dt = DateTime.Now;
             cbMonth.Items.Clear();
             cbMonth.Items.Add("Січень");
             cbMonth.Items.Add("Лютий");
@@ -42,15 +28,20 @@ namespace Assignment06
             cbMonth.Items.Add("Жовтень");
             cbMonth.Items.Add("Листопад");
             cbMonth.Items.Add("Грудень");
-            cbMonth.SelectedIndex = dt.Month-1;
-            cbMonth.Enabled = true;
-            cbMonth.SelectedIndexChanged += cbMonth_SelectedIndexChanged;
+            cbYear.SelectedItem = dt.Year.ToString();
+            cbMonth.SelectedIndex = dt.Month - 1;
+        }
+
+        private void cbYear_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lbResult.Text = "";
+            cbMonth.SelectedIndex = 0;
+            cbDay.SelectedIndex = 0;
         }
 
 
         private void cbMonth_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cbDay.SelectedIndexChanged -= cbDay_SelectedIndexChanged;
             lbResult.Text = ""; 
             DateTime dt;
             dt = Convert.ToDateTime($"1/{cbMonth.SelectedIndex + 1}/{cbYear.Text}");
@@ -61,10 +52,8 @@ namespace Assignment06
                 countDay = 30;
             if (dt.Month == 2)
             { 
-                countDay = 29;
+                countDay = 28;
                 if (dt.Year % 4 == 0)
-                    countDay--;
-                if (dt.Year % 100 == 0)
                     countDay++;
             }
             cbDay.Items.Clear();
@@ -74,9 +63,7 @@ namespace Assignment06
                 cbDay.SelectedItem = DateTime.Now.Day.ToString();
             else
                 cbDay.SelectedItem = "1";
-           
             cbDay.Enabled = true;
-            cbDay.SelectedIndexChanged += cbDay_SelectedIndexChanged;
         }
 
 
