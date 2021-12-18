@@ -5,21 +5,25 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork01", "HomeWork01", "{9D1B833B-C65C-4401-8906-ADEE52C0559F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment01", "Assignment01\Assignment01.csproj", "{40D478C2-C231-40BB-B681-C44FDF45B41F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment01", "Assignment01\Assignment01.csproj", "{40D478C2-C231-40BB-B681-C44FDF45B41F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment02", "Assignment02\Assignment02.csproj", "{374DEBF3-4CDA-4E5B-AA4B-E76C4A7BAD13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment02", "Assignment02\Assignment02.csproj", "{374DEBF3-4CDA-4E5B-AA4B-E76C4A7BAD13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment03", "Assignment03\Assignment03.csproj", "{14EDE1A2-0854-4C1B-9FF9-391CA3C827DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment03", "Assignment03\Assignment03.csproj", "{14EDE1A2-0854-4C1B-9FF9-391CA3C827DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment04", "Assignment04\Assignment04.csproj", "{7A748DEE-6C6A-4617-BABA-3A0452E355FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment04", "Assignment04\Assignment04.csproj", "{7A748DEE-6C6A-4617-BABA-3A0452E355FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment05", "Assignment05\Assignment05.csproj", "{0C10D398-D1D0-4A1E-A7F5-29B20286381C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment05", "Assignment05\Assignment05.csproj", "{0C10D398-D1D0-4A1E-A7F5-29B20286381C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment06", "Assignment06\Assignment06.csproj", "{AC456D00-E8CE-4B05-8EF0-68A44F4C8C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment06", "Assignment06\Assignment06.csproj", "{AC456D00-E8CE-4B05-8EF0-68A44F4C8C75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment07", "Assignment07\Assignment07.csproj", "{89352ED0-DEF0-4B3F-883E-AC7AEBF2E80F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment07", "Assignment07\Assignment07.csproj", "{89352ED0-DEF0-4B3F-883E-AC7AEBF2E80F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment08", "Assignment08\Assignment08.csproj", "{5AE7D59B-77C4-407D-AA11-FAE9C4BB9E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment08", "Assignment08\Assignment08.csproj", "{5AE7D59B-77C4-407D-AA11-FAE9C4BB9E10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork02", "HomeWork02", "{AE524AE1-6466-4EB0-86A1-0D1D1DB56275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork02Assignment01", "HomeWork02Assignment01\HomeWork02Assignment01.csproj", "{FB89154C-B036-4615-B5E3-BC650925807B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{5AE7D59B-77C4-407D-AA11-FAE9C4BB9E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE7D59B-77C4-407D-AA11-FAE9C4BB9E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE7D59B-77C4-407D-AA11-FAE9C4BB9E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB89154C-B036-4615-B5E3-BC650925807B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB89154C-B036-4615-B5E3-BC650925807B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB89154C-B036-4615-B5E3-BC650925807B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB89154C-B036-4615-B5E3-BC650925807B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +80,7 @@ Global
 		{AC456D00-E8CE-4B05-8EF0-68A44F4C8C75} = {9D1B833B-C65C-4401-8906-ADEE52C0559F}
 		{89352ED0-DEF0-4B3F-883E-AC7AEBF2E80F} = {9D1B833B-C65C-4401-8906-ADEE52C0559F}
 		{5AE7D59B-77C4-407D-AA11-FAE9C4BB9E10} = {9D1B833B-C65C-4401-8906-ADEE52C0559F}
+		{FB89154C-B036-4615-B5E3-BC650925807B} = {AE524AE1-6466-4EB0-86A1-0D1D1DB56275}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {916C75F8-674A-4F57-9F28-015C6CA3A833}
